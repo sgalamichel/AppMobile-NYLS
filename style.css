@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bgDark: #242637;
+    --bgFootNav: #88C63A;
+    --colorLight: #D8E9A8;
+    --colorFonts:#FFFF;
+    --colorResaltado:#9747FF;
+}
+
+body{
+    background-color: #242637;
+    max-width: 414px;
+    min-height: 100%;
+    font-size: 24px;
+}
+
+/*HOME*/
+a{
+    color: #FFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: var(--colorResaltado);
+}
+.a-color{
+    color: var(--colorResaltado);
+}
+.main-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFF;
+    font-size: 18px;
+}
+
+.main-border{
+    border-radius: 30px;
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    background-color: var(--bgFootNav);
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main-events{
+    margin-top: 8rem;
+}
+
+.carusel-upev{
+    margin-top: 6rem;
+}
+
+.boton-upev{
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: center;
+    background-color: var(--bgFootNav);
+    text-decoration: none;
+    
+}
+
+
+.main-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-contact, .p-donations{
+    margin-top: 8rem;
+    background-color: var(--colorLight);
+    border-radius: 2rem 1rem 2rem 1rem;
+    color: #242637 !important;
+    padding: 1rem;
+    text-align: center;
+}
+
+.img-contact{
+    margin-top: 8rem;
+    border: 2px solid green;
+    border-radius: 1rem 2rem 1rem 2rem;
+    border-radius: 1rem; 
+    object-fit: fill;
+    
+}
+.img-donations{
+    margin-top: 8rem;
+    border-radius: 1rem; 
+   
+}
+
+.img-dnts{
+    border-radius: 1rem 2rem 1rem 2rem;
+    object-fit: cover;
+    border: 2px solid green;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.img-logo{
+    width: 350px;
+    margin:2.2rem 0 2.2rem 2.1rem
+}
+
+.bg-nav{
+    background-color: var(--bgFootNav);
+}
+.bg-navOpen{
+    background-color: #9747ff9f;
+}
+i{
+    color: #FFFF;
+}
+.loguito{
+    width: 50px;
+    height: 50px;
+}
+
+.botonNav{
+    color: #FFFF !important;
+}
+/*UPCOMING EVENTS*/
+
+
+
+/*REGISTRATION*/
+
+.form{
+    color: #FFFF;
+    margin: 4rem 1rem;
+    
+}
+.row1, .row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.gender{
+    display: flex ;
+    justify-content: space-evenly ;
+    flex-direction: row;
+}
+
+.grade{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0.5rem;
+}
+label{
+    margin: 1rem;
+}
+
+.form div{
+    padding-top: 15px;
+    margin:0px;
+}
+
+.permission p {
+    font-size: 20px;
+    font-style: oblique;
+    text-align: justify;
+    text-shadow: 0.3px 0.3px 0.5px white;
+    
+}
+
+#submit { 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:#FFFF;
+    background-color: #88C63A;
+    border: 3px #88C63A;
+    border-radius: 25px;
+    width: -webkit-fill-available;
+    height:30px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px #9747FF;
+
+}
+.unifm{
+    margin-left: 3rem;
+}
+
+.input-s, select {
+    border: 2px solid #88C63A;
+    border-radius: 25px;
+    width: -webkit-fill-available;
+}
+
+.form select{
+    padding-top: 5px;
+}
+
+.form div label:first-child, only-child {
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 0.5px white;
+    font-weight: 400;
+    
+} 
+
+
+
+
+
+
